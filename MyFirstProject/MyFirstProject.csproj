@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -28,6 +28,9 @@
     <Compile Remove="day2.examples\TestEmployee.cs" />
     <Compile Remove="day2.ovearloading\Box.cs" />
     <Compile Remove="day2.ovearloading\TestBox.cs" />
+    <Compile Remove="day3.sampleProject\Department.cs" />
+    <Compile Remove="day3.sampleProject\Employee.cs" />
+    <Compile Remove="day3.sampleProject\XYZCompany.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,6 +43,7 @@
     <Folder Include="day2.encapsulation\" />
     <Folder Include="day2.examples\" />
     <Folder Include="day2.ovearloading\" />
+    <Folder Include="day3.sampleProject\" />
   </ItemGroup>
 
 </Project>
