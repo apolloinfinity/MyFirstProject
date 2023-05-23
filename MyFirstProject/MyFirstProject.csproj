@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="day1.examples\CalculateTax.cs" />
+    <Compile Remove="day1.examples\ExampleAndOr.cs" />
+    <Compile Remove="day1.examples\ExampleArray.cs" />
+    <Compile Remove="day1.examples\ExampleDoWhile.cs" />
+    <Compile Remove="day1.examples\ExampleFor.cs" />
+    <Compile Remove="day1.examples\ExampleIf.cs" />
+    <Compile Remove="day1.examples\ExampleOne.cs" />
+    <Compile Remove="day1.examples\ExampleString.cs" />
+    <Compile Remove="day1.examples\ExampleSwitchCase.cs" />
+    <Compile Remove="day1.examples\ExampleWhile.cs" />
+    <Compile Remove="day2.constructor\SmallBox.cs" />
+    <Compile Remove="day2.constructor\TestSmallBox.cs" />
+    <Compile Remove="day2.encapsulation\Employee.cs" />
+    <Compile Remove="day2.encapsulation\TestEmployee.cs" />
+    <Compile Remove="day2.examples\Box.cs" />
+    <Compile Remove="day2.examples\Employee.cs" />
+    <Compile Remove="day2.examples\TestBox.cs" />
+    <Compile Remove="day2.examples\TestEmployee.cs" />
+    <Compile Remove="day2.ovearloading\Box.cs" />
+    <Compile Remove="day2.ovearloading\TestBox.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="day1.examples\" />
+    <Folder Include="day2.constructor\" />
+    <Folder Include="day2.encapsulation\" />
+    <Folder Include="day2.examples\" />
+    <Folder Include="day2.ovearloading\" />
+  </ItemGroup>
+
+</Project>
